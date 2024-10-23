@@ -47,7 +47,7 @@ Description=SaaSDemo User Subscription Service
 After=network.target
 
 [Service]
-ExecStart=$VENV_DIR/bin/python $INSTALL_DIR/SaaSDemo.py
+ExecStart=$VENV_DIR/bin/python $INSTALL_DIR/saas_scripts/SaaSDemo.py
 Restart=always
 User=azureuser
 Group=azureuser
